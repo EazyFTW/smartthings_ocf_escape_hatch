@@ -1,0 +1,7 @@
+{
+    "domain": "smartthings_ocf_escape_hatch",
+    "name": "SmartThings OCF escape hatch",
+    "version": "0.0.1",
+    "integration_type": "service",
+    "dependencies": ["smartthings"]
+}

@@ -1,0 +1,22 @@
+ocf_post:
+  name: OCF POST request
+  description: Perform a raw OCF POST request to the device
+  target:
+    entity:
+      integration: smartthings
+      domain: media_player
+  fields:
+    path:
+      name: Request path
+      description: Relative URI to send request to
+      required: true
+      example: "/oci/res"
+      selector:
+        text:
+    params:
+      name: Parameters
+      description: Request parameters
+      required: true
+      example: "{}"
+      selector:
+        object:
